@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Collapse and Carusel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Bootstrap</h1>
+            <p>Collapse and Carousels</p>
+        </div>
+
+        <div class="accordian" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">Collapse 1</button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptates voluptatibus minima laboriosam accusamus quam cum
+                     provident aut atque ducimus?
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo">Collapse 2</button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa porro, omnis explicabo recusandae dolor deserunt suscipit inventore eum perspiciatis! Ducimus quae, eveniet, exercitationem sint minus neque animi 
+                    nesciunt maiores ipsa facere delectus cum quos aliquid id nihil omnis, eligendi vitae!
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree">Collapse 3</button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptates voluptatibus minima laboriosam accusamus quam cum
+                     provident aut atque ducimus?
+                </div>
+            </div>
+          </div>
+        </div><br>
+        
+        <div id="carouselExampleControls" class="carousel slide">
+
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+          </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/imageone.jpg" alt="First slide">
+                <div class="carousel-caption">
+                  <h5>This is caption</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, est.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/imagetwo.jpg" alt="Second slide">
+                <div class="carousel-caption">
+                  <h5>This is caption</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, est.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/imagethree.jpg" alt="Third slide">
+                <div class="carousel-caption">
+                  <h5>This is caption</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, est.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a> 
+          </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>
